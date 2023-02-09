@@ -1,0 +1,29 @@
+  {{>upperbody}}
+
+<body>
+   {{!-- {{>navbar.hbs}} --}}
+  {{>navbar}}
+
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div  -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                       <figure class="errimg">
+                            <img src="images/404.png" alt="weather-img"class="img-fluid"title="Thapa technical">
+                       </figure>
+                        <p>Welcome to Thapa Technical</p>
+                        <h1>{{errormsg}}</h1>
+                        <a href="/" target="_thapa"><button>go back</button></a>
+                    </div>
+                    
+                    <!-- right side div  -->
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code  -->
+   {{>footer}}
