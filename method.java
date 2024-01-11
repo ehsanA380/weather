@@ -16,5 +16,7 @@ public class method {
     public static void main(String[] args) {
         method m = new method();
         System.out.println(m.logic(3,2));
+        int c= m.logic(8, 6);
+        System.out.println(c);
     }
 }
