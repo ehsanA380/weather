@@ -19,7 +19,7 @@ public class gettingUserInput {
             // String str = sc.next();
             // System.out.println(str);
         //writing line 
-<<<<<<< HEAD
+
         // String line = sc.nextLine();
         // System.out.println(line);
 
@@ -27,10 +27,10 @@ public class gettingUserInput {
         String name;
         name = new String("Ehsan");
         System.out.println(name);
-=======
+
         String line = sc.nextLine();
         System.out.println(line);
->>>>>>> master
+
 
     }
 }
